@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/specs/:path*",
+      "destination": "https://your-nextjs-app.vercel.app/:path*"
+    },
+    {
+      "source": "/specs",
+      "destination": "https://your-nextjs-app.vercel.app/"
+    }
+  ]
+}
