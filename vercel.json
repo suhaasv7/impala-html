@@ -1,27 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/specs/_next/:path*",
-      "destination": "https://impala-next-js.vercel.app/_next/:path*"
-    },
-    {
       "source": "/specs/:path*",
-      "destination": "https://impala-next-js.vercel.app/:path*"
-    },
-    {
-      "source": "/specs",
-      "destination": "https://impala-next-js.vercel.app/"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/specs/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
+      "destination": "https://impala-next-js.vercel.app/specs/:path*"
     }
   ]
 }
