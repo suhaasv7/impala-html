@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/specs/:path*",
-      "destination": "https://impala-next-js.vercel.app/specs/:path*"
-    }
-  ]
-}
