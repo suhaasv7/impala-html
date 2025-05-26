@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/specs/:path*",
-      "destination": "https://impala-next-js.vercel.app//:path*"
+      "destination": "https://impala-next-js.vercel.app/:path*"
     },
     {
       "source": "/specs",
-      "destination": "https://impala-next-js.vercel.app//"
+      "destination": "https://impala-next-js.vercel.app/"
     }
   ]
 }
